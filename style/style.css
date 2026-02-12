@@ -221,3 +221,46 @@ body {
     font-size: 1.5rem;
   }
 }
+.proposal {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.proposal h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#yesBtn {
+  background-color: #ff4d88;
+  color: white;
+}
+
+#yesBtn:hover {
+  background-color: #ff0066;
+  transform: scale(1.1);
+}
+
+#noBtn {
+  background-color: #aaa;
+  color: white;
+}
+
+#responseText {
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #ff0066;
+  font-family: 'Pacifico', cursive;
+}
+
